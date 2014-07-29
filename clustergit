@@ -114,7 +114,7 @@ def read_arguments(args):
     parser.add_option("-b", "--branch",
                 action      = "store",
                 dest        = "branch",
-                default     = "master",
+                default     = "",
                 help        = "Warn if not on this branch"
                 )
 
