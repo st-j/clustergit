@@ -43,7 +43,7 @@ def read_arguments(args):
     parser.add_option("-a", "--align",
                   action    = "store",
                   dest      = "align",
-                  default   = 40,
+                  default   = 50,
                   type      = "int",
                   help      = "Repo name align (space padding)"
                   )
